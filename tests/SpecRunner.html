@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Price Format Test Runner</title>
+
+    <link rel="stylesheet" type="text/css" href="./vendor/jasmine/lib/jasmine-core/jasmine.css">
+    <script type="text/javascript" src="./vendor/jasmine/lib/jasmine-core/jasmine.js"></script>
+    <script type="text/javascript" src="./vendor/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+
+    <script type="text/javascript" src="./vendor/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="./vendor/jasmine-jquery/lib/jasmine-jquery.js"></script>
+
+    <script type="text/javascript" src="../jquery.priceformat.js"></script>
+    <script type="text/javascript" src="./spec/jquery.priceformat_spec.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+      jasmine.getEnv().execute();
+    </script>
+  </body>
+</html>
