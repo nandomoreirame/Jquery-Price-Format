@@ -40,3 +40,7 @@ Thumbs.db
 # Node Modules #
 ################
 /node_modules
+
+# Bower vendor #
+################
+/tests/vendor
